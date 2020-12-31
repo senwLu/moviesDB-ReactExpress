@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TopNavBar from './TopNavBar.jsx';
 
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
 	render() {
 		return (
 			<div>
+				<TopNavBar />
 			</div>
 		)
 	};
