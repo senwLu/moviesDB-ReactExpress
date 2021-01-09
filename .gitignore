@@ -9,3 +9,5 @@ dist/
 # other
 .DS_Store
 .vscode
+
+prConfig.js
