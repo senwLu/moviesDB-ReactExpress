@@ -4,7 +4,7 @@ const app = express();
 app.use(express.static(__dirname + '/../dist'));
 
 const movieRoutes = require('./routes/movieRoutes.js');
-app.use('/moviesdb', movieRoutes);
+app.use('/movies', movieRoutes);
 
-const port = process.env.PORT || 3002;
+const port = process.env.PORT || 8080;
 app.listen(port, () => console.log(`Listening on port: ${port}`)); 

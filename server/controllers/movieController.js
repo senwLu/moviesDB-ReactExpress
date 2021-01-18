@@ -16,7 +16,6 @@ module.exports = {
                 `&language=en-US&sort_by=popularity.desc&include_adult=false` + 
                 `&include_video=false&page=1&with_genres=878`)
       .then(function(result) {
-        console.log(result.data)
         res.send(result.data);
       })
       .catch(function(err) {
